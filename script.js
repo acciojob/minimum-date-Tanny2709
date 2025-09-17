@@ -1,9 +1,9 @@
 function minDate(dates) {
-  //write you code here
+  // Use reduce to find the minimum date
+  return dates.reduce((min, current) => current < min ? current : min);
 }
 
 // Do not change the code
-
 var dates = [
   "2023/03/01",
   "2023/03/02",
